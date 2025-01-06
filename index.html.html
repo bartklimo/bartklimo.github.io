@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bklim page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <style>
+       body {
+            font-family: 'Merriweather', serif;
+            background-color: #fff;
+        }
+        .section {
+            padding: 3rem 1.5rem;
+        }
+        .title {
+            color: #363636;
+        }
+        .subtitle {
+            color: #4a4a4a;
+        }
+        .navbar {
+            box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 30;
+        }
+        .profile-image {
+            border-radius: 50%;
+            max-width: 200px;
+        }
+        .research-section {
+            margin-bottom: 4rem;
+        }
+        .footer-note {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 1rem;
+        }
+        .documents-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }        body {
+            font-family: 'Merriweather', serif;
+            background-color: #fff;
+        }
+        .section {
+            padding: 3rem 1.5rem;
+        }
+        .title {
+            color: #363636;
+        }
+        .subtitle {
+            color: #4a4a4a;
+        }
+        .navbar {
+            box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 30;
+        }
+        .profile-image {
+            border-radius: 50%;
+            max-width: 200px;
+        }
+        .research-section {
+            margin-bottom: 4rem;
+        }
+        .footer-note {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="main-nav" class="navbar is-white" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <strong>bklimowski personal page</strong>
+            </a>
+        </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#about">About</a>
+                <a class="navbar-item" href="#research">Research</a>
+                <a class="navbar-item" href="#publications">Publications</a>
+                <a class="navbar-item" href="#contact">Contact</a>
+                <a class="navbar-item" href="#documents">Documents</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <h1 class="title is-2">Bartłomiej Klimowski</h1>
+                    <h2 class="subtitle is-4">Data Scientist</h2>
+                    <p class="subtitle is-5">University of Warsaw</p>
+                    <div class="content">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="column has-text-right">
+                    <img src="/api/placeholder/200/320" alt="Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Areas Section -->
+    <section id="research" class="section research-section">
+        <div class="container">
+            <h2 class="title is-3">Current Projects</h2>
+            <div class="content">
+                <ul>
+                    <li>Instituional Determinants of Social Spending Dynamics of OECD Countries after The 2008 Great Recession [Master Thesis]</li>
+                    <li>Voting Polarization in Polish Parliament (1998-2024): Spatial Theory of Voting Appraoch</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-3">Research Interests</h2>
+            <div class="columns">
+                <div class="column">
+                    <div class="content">
+                        <h4 class="title is-5">Areas of Application</h4>
+                        <ul>
+                            <li>Public Policy Analysis</li>
+                            <li>Policy Process</li>
+                            <li>Economic Sociology</li>
+                            <li>Programme Evaluation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h4 class="title is-5">Social Theory</h4>
+                        <ul>
+                            <li>Analytical Sociology</li>
+                            <li>New Institutionalism</li>
+                            <li>Complex Systems</li>
+                            <li>Critical Realism</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h4 class="title is-5">Research Methodology</h4>
+                        <ul>
+                            <li>Social Statistics and Data Science</li>
+                            <li>Social Simulations <br> (ABM's, Systems Dynamics, Microsimulations)</li>
+                            <li>Qualitative Comparative Analysis</li>
+                            <li>Mixed-method Research</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="title is-3">Recent Publications</h2>
+            <div class="columns">
+                <div class="column">
+                    <div class="content">
+                        <h4 class="title is-5">2026</h4>
+                        <ul>
+                            <li>title</li>
+                            <li>authors</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h4 class="title is-5">2025</h4>
+                        <ul>
+                            <li>Smith, J., Davis, M. "Neural Networks in Healthcare" - IEEE</li>
+                            <li>Williams, A., Smith, J. "AI Ethics" - AI Journal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    //-->
+
+    <!-- 
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="title is-3">Contact</h2>
+            <div class="columns">
+                <div class="column">
+                    <div class="content">
+                        <p><strong>Email:</strong></p>
+                        <p><strong>Office:</strong></p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <p><strong>Address:</strong></p>
+                        <p><strong>Office Hours:</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    //-->
+
+<!-- Documents Section -->
+    <section id="documents" class="section">
+        <div class="container">
+            <h2 class="title is-3">Documents</h2>
+            <div class="documents-grid">
+                <div class="content">
+                    <h4 class="title is-5">Professional</h4>
+                    <ul>
+                        <li><a href="#">Short CV [PDF]</a></li>
+                        <li><a href="#">Long CV [PDF]</a></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <h4 class="title is-5">Resources</h4>
+                    <ul>
+                        <li><a href="#">Research Statement [PDF]</a></li>
+                        <li><a href="#">Project Portfolio [PDF]</a></li>
+                        <li><a href="#">Grant Proposals [PDF]</a></li>
+                        <li><a href="#">Lab Guidelines [PDF]</a></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <h4 class="title is-5">Talks Slides</h4>
+                    <ul>
+                        <li><a href="#">Complete CV [PDF]</a></li>
+                        <li><a href="#">Biography [PDF]</a></li>
+                        <li><a href="#">Media Kit [PDF]</a></li>
+                        <li><a href="#">Press Coverage [PDF]</a></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <h4 class="title is-5">Varia</h4>
+                    <ul>
+                        <li><a href="#">Diversity Statement [PDF]</a></li>
+                        <li><a href="#">Service Statement [PDF]</a></li>
+                        <li><a href="#">Mentoring Philosophy [PDF]</a></li>
+                        <li><a href="#">Conference Talks [PDF]</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p class="footer-note">This page is deliberately simple and <a href="https://jeffhuang.com/designed_to_last/"> designed to last.</a></p>
+        </div>
+    </footer>
+</body>
+</html>
