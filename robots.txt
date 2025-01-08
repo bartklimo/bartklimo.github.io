@@ -1,5 +1,13 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
 User-agent: *
-Allow: 
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /*?*
+
+User-agent: Googlebot
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+
+Sitemap: https://bartklimo.github.io/sitemap.xml
