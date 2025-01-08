@@ -5,6 +5,7 @@
     <meta name="google-site-verification" content="Uo3CF3Ap0MdL2Wq5n-vnZ_dIGmR9FgHGQmxR9ydLMg4" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bklim page</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
@@ -28,10 +29,12 @@
             position: sticky;
             top: 0;
             z-index: 30;
+			margin-bottom: 20px;
         }
         .profile-image {
-            border-radius: 50%;
-            max-width: 200px;
+            border-radius: 10%;
+            max-width: 225px;
+			margin-right: 60px;
         }
         .research-section {
             margin-bottom: 4rem;
@@ -51,7 +54,8 @@
             background-color: #fff;
         }
         .section {
-            padding: 3rem 1.5rem;
+			padding-top:60px;
+			margin-top: -60px;
         }
         .title {
             color: #363636;
@@ -59,25 +63,11 @@
         .subtitle {
             color: #4a4a4a;
         }
-        .navbar {
-            box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 30;
-        }
-        .profile-image {
-            border-radius: 50%;
-            max-width: 200px;
-        }
-        .research-section {
-            margin-bottom: 4rem;
-        }
-        .footer-note {
-            font-style: italic;
-            color: #666;
-            font-size: 0.9em;
-            margin-top: 1rem;
-        }
+		
+		.pimage {
+			text-align: center
+		}
+
     </style>
 </head>
 <body>
@@ -85,7 +75,7 @@
     <nav id="main-nav" class="navbar is-white" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="#">
-                <strong>bklimowski personal page</strong>
+                <strong>  bklimowski personal page</strong>
             </a>
         </div>
 
@@ -93,27 +83,27 @@
             <div class="navbar-end">
                 <a class="navbar-item" href="#about">About</a>
                 <a class="navbar-item" href="#research">Research</a>
-                <a class="navbar-item" href="#publications">Publications</a>
-                <a class="navbar-item" href="#contact">Contact</a>
                 <a class="navbar-item" href="#documents">Documents</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="about" class="section">
+    <section id="about" class="section anchor">
         <div class="container">
             <div class="columns">
                 <div class="column is-two-thirds">
                     <h1 class="title is-2">Bartłomiej Klimowski</h1>
                     <h2 class="subtitle is-4">Data scientist transitioning from industry to academic research, focused on leveraging computational methods to inform evidence-based policy decisions.</h2>
-                    <p class="subtitle is-5">Sociology of Social Intervention Student, University of Warsaw</p>
+                    <!-- <p class="subtitle is-5">Sociology of Social Intervention Student, University of Warsaw</p> -->
+					
+					<p class="subtitle is-5">email: bklimowski1 at gmail.com</p>
                     <div class="content">
                         <p></p>
                     </div>
                 </div>
-                <div class="column has-text-right">
-                    <img src="/api/placeholder/200/320" alt="Profile Picture" class="profile-image">
+                <div class="column has-text-right pimage">
+                    <img src="img/picture.jpg" alt="My Picture" class="profile-image">
                 </div>
             </div>
         </div>
@@ -270,7 +260,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="content has-text-centered">
-            <p class="footer-note">This page is deliberately simple and <a href="https://jeffhuang.com/designed_to_last/"> designed to last.</a></p>
+            <p class="footer-note">This page is deliberately simple and <a href="https://jeffhuang.com/designed_to_last/"> designed to last.</a></p
+			<a target="_blank" href="https://icons8.com/icon/sMPFZs29d5DL/graph">Graph</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
         </div>
     </footer>
 </body>
